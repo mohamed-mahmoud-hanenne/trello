@@ -1,27 +1,43 @@
-# Testapp
+# Trello App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
+Trello App est une application web simple développée en Angular qui permet d'ajouter, de visualiser, d'éditer et de supprimer des tâches . Cette application utilise des concepts fondamentaux d'Angular, notamment la liaison de données et les directives structurelles.
 
-## Development server
+## Fonctionnalités
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Phase À faire** : Permet d'ajouter de nouvelles tâches à la liste, d'éditer et de supprimer des tâches existantes.
+- **Phase En cours** : Permet de déplacer les tâches de la phase "À faire" à la phase "En cours" et de supprimer des tâches.
+- **Phase Terminé** : Permet de déplacer les tâches de la phase "En cours" à la phase "Terminé", de supprimer des tâches et de visualiser une icône indiquant que la tâche est terminée.
 
-## Code scaffolding
+## Concepts Angular Utilisés
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Liaison de données :
 
-## Build
+- **Interpolation** : Affichage de données dynamiques dans le modèle HTML.
+- **Liaison bidirectionnelle** : Liaison bidirectionnelle entre les données du modèle et les éléments de formulaire.
+- **Liaison de propriété** : Liaison des propriétés HTML aux valeurs des composants.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Directives structurelles :
 
-## Running unit tests
+- **`*ngIf`** : Affichage ou masquage conditionnel d'éléments DOM.
+- **`*ngFor`** : Itération sur une liste d'éléments et génération dynamique d'éléments DOM.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installation et Utilisation
 
-## Running end-to-end tests
+1. Assurez-vous d'avoir Node.js et Angular CLI installés sur votre système.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Naviguez jusqu'au répertoire du projet dans votre terminal.
 
-## Further help
+    ```bash
+    cd trello-angular
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Exécutez `npm install` pour installer les dépendances.
+
+4. Exécutez `ng serve` pour démarrer le serveur de développement.
+
+5. Ouvrez votre navigateur et accédez à [http://localhost:4200/](http://localhost:4200/) pour utiliser l'application.
+
+## Démo
+
+https://github.com/mohamed-mahmoud-hanenne/trello/assets/96345931/b6b6df4d-edc3-46e0-8aac-17b3cc7605af
+
