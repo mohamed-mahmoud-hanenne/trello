@@ -24,18 +24,9 @@ Trello App est une application web simple développée en Angular qui permet d'a
 ## Installation et Utilisation
 
 1. Assurez-vous d'avoir Node.js et Angular CLI installés sur votre système.
-
-2. Naviguez jusqu'au répertoire du projet dans votre terminal.
-
-    ```bash
-    cd trello-angular
-    ```
-
-3. Exécutez `npm install` pour installer les dépendances.
-
-4. Exécutez `ng serve` pour démarrer le serveur de développement.
-
-5. Ouvrez votre navigateur et accédez à [http://localhost:4200/](http://localhost:4200/) pour utiliser l'application.
+2. Exécutez `npm install` pour installer les dépendances.
+3. Exécutez `ng serve` pour démarrer le serveur de développement.
+4. Ouvrez votre navigateur et accédez à [http://localhost:4200/](http://localhost:4200/) pour utiliser l'application.
 
 ## Démo
 
